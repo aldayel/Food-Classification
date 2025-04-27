@@ -1,6 +1,6 @@
-## Transfer Learning Experiment
+# Transfer Learning Experiment
 
-# 1. Experiment Summary
+## 1. Experiment Summary
 
 Objective: Compare two transfer learning strategies on the Food-11 dataset:
 
@@ -36,9 +36,9 @@ Callbacks: EarlyStopping(monitor='loss', patience=20), ModelCheckpoint(save_best
 
 Epochs: 1 (feature extraction only)
 
-2. Observations
+## 2. Observations
 
-2.1 Feature Extraction vs. Fine-Tuning
+### 2.1 Feature Extraction vs. Fine-Tuning
 
 Convergence Speed: Feature extraction converged in 1 epoch; fine-tuning was not performed.
 
@@ -46,15 +46,14 @@ Final Accuracy: Feature extraction achieved 80.02% test accuracy; no fine-tuning
 
 Training Stability: Training was stable over the single epoch, but more epochs are required to fully assess plateau behavior.
 
-2.2 Generalization
+### 2.2 Generalization
 
 Validation Gap: After 1 epoch, the gap between training and validation accuracy is minimal, indicating consistent behavior for this short run.
 
 Domain Adaptation: Fine-tuning was not executed, so domain-specific improvements remain untested.
 
 
-
-2.4 Overfitting
+### 2.3 Overfitting
 
 Loss Divergence: No divergence between training and validation losses within one epoch.
 
