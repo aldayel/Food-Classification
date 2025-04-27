@@ -1,6 +1,6 @@
 ## Transfer Learning Experiment
 
-1. Experiment Summary
+# 1. Experiment Summary
 
 Objective: Compare two transfer learning strategies on the Food-11 dataset:
 
