@@ -7,7 +7,6 @@ Objective: Compare two transfer learning strategies on the Food-11 dataset:
 Feature Extraction: Freeze the pre-trained base model and train only the new classifier head.
 
 Fine-Tuning: Unfreeze the base model and train jointly (not executed in this notebook).
-
 Dataset: Food-11 image dataset from Kaggle (trolukovich/food11-image-dataset), consisting of 11 classes with 9,866 training images and 3,430 validation images. Images were resized to 256×256, rescaled by 1/255, and augmented (zoom_range=0.2, horizontal_flip, vertical_flip).
 
 Model Architecture:
