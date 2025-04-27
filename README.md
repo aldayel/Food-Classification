@@ -52,11 +52,7 @@ Validation Gap: After 1 epoch, the gap between training and validation accuracy 
 
 Domain Adaptation: Fine-tuning was not executed, so domain-specific improvements remain untested.
 
-2.3 Convergence
 
-Epochs to Plateau: Feature extraction plateaued at epoch 1; fine-tuning plateau cannot be determined.
-
-Learning Dynamics: Only a single epoch was recorded, so learning rate scheduling benefits were not observed.
 
 2.4 Overfitting
 
