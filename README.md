@@ -9,7 +9,7 @@ Compare two transfer learning strategies on the Food-11 dataset:
 Freeze the pre-trained base model and train only the new classifier head.
 
 ### Dataset: 
-Food-11 image dataset from Kaggle (trolukovich/food11-image-dataset), consisting of 11 classes with 9,866 training images and 3,430 validation images. Images were resized to 256×256, rescaled by 1/255, and augmented (zoom_range=0.2, horizontal_flip, vertical_flip).
+The food-11 image dataset from Kaggle (trolukovich/food11-image-dataset) consists of 11 classes with 9,866 training images and 3,430 validation images. Images were resized to 256×256, rescaled by 1/255, and augmented (zoom_range=0.2, horizontal_flip, vertical_flip).
 
 ### Model:
 Base: InceptionResNetV2 (weights="imagenet", include_top=False, input_shape=(256,256,3))
